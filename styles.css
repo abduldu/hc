@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.horror-container {
+    background-color: #660000; /* Dark red container background */
+    padding: 20px;
+    border: 5px solid #990000; /* Darker red border */
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+button {
+    background-color: #ff0000; /* Red button */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #990000; /* Darker red on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #8B0000; /* Dark red */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #FF0000; /* Bright red on hover */
+}
+
+/* card */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.card-section {
+    background-color: #8B0000; /* Dark red */
+    padding: 30px;
+    text-align: center;
+}
+
+.card {
+    background-color: #1a1a1a; /* Dark gray for card background */
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #FF0000; /* Bright red border */
+    position: relative;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card-description {
+    font-size: 16px;
+}
+
+.buy-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FF0000; /* Bright red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: none;
+}
+
+.card:hover .buy-button {
+    display: block;
+}
+
+.buy-button:hover {
+    background-color: #8B0000; /* Dark red on hover */
+}
+/* payment  */
+/* Styles for the payment method page */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.payment-option {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* You can add more styles as needed for your specific design preferences */
+/* Add media queries for responsiveness */
+/* Mobile */
+@media (max-width: 576px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Laptop */
+@media (min-width: 768px) {
+    .navbar a {
+        font-size: 24px; /* Increase font size for laptops */
+    }
+}
+
+/* PC */
+@media (min-width: 992px) {
+    .navbar {
+        background-color: #CC0000; /* Darker red for PCs */
+    }
+}
+
+/* TV */
+@media (min-width: 1200px) {
+    body {
+        font-size: 24px; /* Increase font size for TVs */
+    }
+}
+/* Footer styles */
+footer {
+    background-color: #8B0000; /* Dark red background for the footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px; /* Adjust the logo size */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    background-color: #660000; /* Darker red for the bottom bar */
+    padding: 5px 0;
+    font-size: 14px;
+}

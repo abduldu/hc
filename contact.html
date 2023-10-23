@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-section {
+            background-color: #8B0000; /* Dark red */
+            padding: 50px;
+            text-align: center;
+        }
+
+        .contact-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            color: #fff;
+        }
+
+        .input-field::placeholder {
+            color: #fff;
+        }
+
+        .submit-button {
+            background-color: #FF0000; /* Bright red */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: #8B0000; /* Dark red on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-section">
+        <h2 class="contact-heading">Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" class="input-field" placeholder="Your Name">
+            <input type="email" class="input-field" placeholder="Your Email">
+            <textarea class="input-field" placeholder="Your Message" rows="5"></textarea>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

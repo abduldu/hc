@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Select a Payment Method</h1>
+
+    <form id="paymentForm" action="process_payment.php" method="post">
+        <div class="payment-option">
+            <label for="visa">Visa Card</label>
+            <input type="radio" id="visa" name="paymentMethod" value="visa">
+        </div>
+
+        <div class="payment-option">
+            <label for="mastercard">Mastercard</label>
+            <input type="radio" id="mastercard" name="paymentMethod" value="mastercard">
+        </div>
+
+        <div class="payment-option">
+            <label for="easypaisa">EasyPaisa</label>
+            <input type="radio" id="easypaisa" name="paymentMethod" value="easypaisa">
+        </div>
+
+        <div class="payment-option">
+            <label for="jazzcash">JazzCash</label>
+            <input type="radio" id="jazzcash" name="paymentMethod" value="jazzcash">
+        </div>
+
+        <div class="payment-option">
+            <label for="nayapay">NayaPay</label>
+            <input type="radio" id="nayapay" name="paymentMethod" value="nayapay">
+        </div>
+
+        <button type="submit">Proceed to Payment</button>
+    </form>
+
+    <script>
+        // You would typically add JavaScript here to handle form submission and redirection to the payment gateway.
+        // Remember to integrate with a payment gateway's API.
+        document.getElementById("paymentForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const selectedPaymentMethod = document.querySelector('input[name="paymentMethod"]:checked').value;
+            // Perform necessary actions based on the selected payment method (e.g., redirect to the respective payment gateway).
+        });
+    </script>
+</body>
+</html>
